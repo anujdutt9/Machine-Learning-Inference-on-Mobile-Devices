@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		314EE8AE213D75B400D54603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314EE8AD213D75B400D54603 /* AppDelegate.swift */; };
+		314EE8B0213D75B400D54603 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314EE8AF213D75B400D54603 /* ViewController.swift */; };
+		314EE8B3213D75B400D54603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 314EE8B1213D75B400D54603 /* Main.storyboard */; };
+		314EE8B5213D75B500D54603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 314EE8B4213D75B500D54603 /* Assets.xcassets */; };
+		314EE8B8213D75B500D54603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 314EE8B6213D75B500D54603 /* LaunchScreen.storyboard */; };
+		31B888E521F0EA3A00C862EB /* Flowers.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 31B888E421F0EA3A00C862EB /* Flowers.mlmodel */; };
+		31B888EB21F0EB0500C862EB /* tulips.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 31B888E621F0EB0400C862EB /* tulips.jpg */; };
+		31B888EC21F0EB0500C862EB /* sunflower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 31B888E721F0EB0400C862EB /* sunflower.jpg */; };
+		31B888ED21F0EB0500C862EB /* daisy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 31B888E821F0EB0400C862EB /* daisy.jpg */; };
+		31B888EE21F0EB0500C862EB /* dandelion.png in Resources */ = {isa = PBXBuildFile; fileRef = 31B888E921F0EB0400C862EB /* dandelion.png */; };
+		31B888EF21F0EB0500C862EB /* rose.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 31B888EA21F0EB0500C862EB /* rose.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		314EE8AA213D75B400D54603 /* FlowerClassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowerClassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		314EE8AD213D75B400D54603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		314EE8AF213D75B400D54603 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		314EE8B2213D75B400D54603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		314EE8B4213D75B500D54603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		314EE8B7213D75B500D54603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		314EE8B9213D75B500D54603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31B888E421F0EA3A00C862EB /* Flowers.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Flowers.mlmodel; sourceTree = "<group>"; };
+		31B888E621F0EB0400C862EB /* tulips.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tulips.jpg; sourceTree = "<group>"; };
+		31B888E721F0EB0400C862EB /* sunflower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunflower.jpg; sourceTree = "<group>"; };
+		31B888E821F0EB0400C862EB /* daisy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = daisy.jpg; sourceTree = "<group>"; };
+		31B888E921F0EB0400C862EB /* dandelion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dandelion.png; sourceTree = "<group>"; };
+		31B888EA21F0EB0500C862EB /* rose.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rose.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		314EE8A7213D75B400D54603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		314EE8A1213D75B400D54603 = {
+			isa = PBXGroup;
+			children = (
+				314EE8AC213D75B400D54603 /* FlowerClassifier */,
+				314EE8AB213D75B400D54603 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		314EE8AB213D75B400D54603 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				314EE8AA213D75B400D54603 /* FlowerClassifier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		314EE8AC213D75B400D54603 /* FlowerClassifier */ = {
+			isa = PBXGroup;
+			children = (
+				31B888E821F0EB0400C862EB /* daisy.jpg */,
+				31B888E921F0EB0400C862EB /* dandelion.png */,
+				31B888EA21F0EB0500C862EB /* rose.jpg */,
+				31B888E721F0EB0400C862EB /* sunflower.jpg */,
+				31B888E621F0EB0400C862EB /* tulips.jpg */,
+				31B888E421F0EA3A00C862EB /* Flowers.mlmodel */,
+				314EE8AD213D75B400D54603 /* AppDelegate.swift */,
+				314EE8AF213D75B400D54603 /* ViewController.swift */,
+				314EE8B1213D75B400D54603 /* Main.storyboard */,
+				314EE8B4213D75B500D54603 /* Assets.xcassets */,
+				314EE8B6213D75B500D54603 /* LaunchScreen.storyboard */,
+				314EE8B9213D75B500D54603 /* Info.plist */,
+			);
+			path = FlowerClassifier;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		314EE8A9213D75B400D54603 /* FlowerClassifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 314EE8BC213D75B500D54603 /* Build configuration list for PBXNativeTarget "FlowerClassifier" */;
+			buildPhases = (
+				314EE8A6213D75B400D54603 /* Sources */,
+				314EE8A7213D75B400D54603 /* Frameworks */,
+				314EE8A8213D75B400D54603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowerClassifier;
+			productName = ImageRecognition;
+			productReference = 314EE8AA213D75B400D54603 /* FlowerClassifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		314EE8A2213D75B400D54603 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Anuj Dutt";
+				TargetAttributes = {
+					314EE8A9213D75B400D54603 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 314EE8A5213D75B400D54603 /* Build configuration list for PBXProject "FlowerClassifier" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 314EE8A1213D75B400D54603;
+			productRefGroup = 314EE8AB213D75B400D54603 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				314EE8A9213D75B400D54603 /* FlowerClassifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		314EE8A8213D75B400D54603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B888EF21F0EB0500C862EB /* rose.jpg in Resources */,
+				314EE8B8213D75B500D54603 /* LaunchScreen.storyboard in Resources */,
+				314EE8B5213D75B500D54603 /* Assets.xcassets in Resources */,
+				31B888EB21F0EB0500C862EB /* tulips.jpg in Resources */,
+				31B888EC21F0EB0500C862EB /* sunflower.jpg in Resources */,
+				31B888ED21F0EB0500C862EB /* daisy.jpg in Resources */,
+				314EE8B3213D75B400D54603 /* Main.storyboard in Resources */,
+				31B888EE21F0EB0500C862EB /* dandelion.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		314EE8A6213D75B400D54603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314EE8B0213D75B400D54603 /* ViewController.swift in Sources */,
+				31B888E521F0EA3A00C862EB /* Flowers.mlmodel in Sources */,
+				314EE8AE213D75B400D54603 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		314EE8B1213D75B400D54603 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				314EE8B2213D75B400D54603 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		314EE8B6213D75B500D54603 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				314EE8B7213D75B500D54603 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		314EE8BA213D75B500D54603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		314EE8BB213D75B500D54603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		314EE8BD213D75B500D54603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J76NR74T6;
+				INFOPLIST_FILE = FlowerClassifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anuj.com.ImageRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		314EE8BE213D75B500D54603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J76NR74T6;
+				INFOPLIST_FILE = FlowerClassifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anuj.com.ImageRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		314EE8A5213D75B400D54603 /* Build configuration list for PBXProject "FlowerClassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314EE8BA213D75B500D54603 /* Debug */,
+				314EE8BB213D75B500D54603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		314EE8BC213D75B500D54603 /* Build configuration list for PBXNativeTarget "FlowerClassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314EE8BD213D75B500D54603 /* Debug */,
+				314EE8BE213D75B500D54603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 314EE8A2213D75B400D54603 /* Project object */;
+}
