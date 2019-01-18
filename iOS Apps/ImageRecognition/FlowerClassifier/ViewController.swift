@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  ImageRecognition
+//  Flower Classifier
 //
 //  Created by Anuj Dutt on 9/3/18.
 //  Copyright © 2018 Anuj Dutt. All rights reserved.
