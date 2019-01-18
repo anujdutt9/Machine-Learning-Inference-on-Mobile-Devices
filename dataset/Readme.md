@@ -1,1 +1,1 @@
-Download and place the flowers dataset in this folder.
+Download and place the image datasets in this folder.
