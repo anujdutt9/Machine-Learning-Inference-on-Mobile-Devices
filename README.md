@@ -7,3 +7,11 @@
 1. MNIST Classification App:
 
 https://www.raywenderlich.com/188-beginning-machine-learning-with-keras-core-ml
+
+2. Turicreate-CoreML:
+
+https://apple.github.io/turicreate/docs/userguide/image_classifier/
+
+3. TensorFlow-to-CoreML:
+
+https://machinethink.net/blog/mobilenet-ssdlite-coreml/
