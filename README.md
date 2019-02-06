@@ -24,5 +24,7 @@ https://www.youtube.com/watch?v=0MGpyYovUwM
 ```
 
 Machine Learning Inference on Mobile Phones [Basic] - 35:30
+
 Machine Learning Inference on Mobile Phones [Advanced] - 1:26:24
+
 Deep Learning for NLP - 1:54:28
