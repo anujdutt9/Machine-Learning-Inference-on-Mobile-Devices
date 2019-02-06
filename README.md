@@ -15,3 +15,14 @@ https://apple.github.io/turicreate/docs/userguide/image_classifier/
 3. TensorFlow-to-CoreML:
 
 https://machinethink.net/blog/mobilenet-ssdlite-coreml/
+
+
+# Meetup Video Link
+
+```
+https://www.youtube.com/watch?v=0MGpyYovUwM
+```
+
+Machine Learning Inference on Mobile Phones [Basic] - 35:30
+Machine Learning Inference on Mobile Phones [Advanced] - 1:26:24
+Deep Learning for NLP - 1:54:28
